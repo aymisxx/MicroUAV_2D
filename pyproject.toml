@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microuav-2d"
+version = "0.1.0"
+description = "Ultra-lite CPU-only 2D UAV down-cam simulator for rapid XY navigation logic testing on overhead maps."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ashu" }]
+dependencies = [
+  "numpy>=1.23",
+  "opencv-python>=4.7",
+]
+
+[project.scripts]
+microuav_2d = "simulator.viewer:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["simulator*"]
+
+# Include root-level assets/ inside the installed distribution
+# so `assets/sample_map.png` is present even after pip install.
+[tool.setuptools.data-files]
+"assets" = ["assets/sample_map.png"]
