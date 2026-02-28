@@ -119,13 +119,13 @@ microuav_2d --map assets/sample_map.png
 ## CLI Arguments
 
 ```
-  Argument       Description                   Default
-  -------------- ----------------------------- ----------
-  `--map`        Path to overhead image        required
-  `--fov`        Square FOV size               128
-  `--fov_w`      Optional FOV width            None
-  `--fov_h`      Optional FOV height           None
-  `--step`       Movement step size (pixels)   8
+  Argument      |Description                  |Default
+  --------------|-----------------------------|----------
+  `--map`       |Path to overhead image       |required
+  `--fov`       |Square FOV size              |128
+  `--fov_w`     |Optional FOV width           |None
+  `--fov_h`     |Optional FOV height          |None
+  `--step`      |Movement step size (pixels)  |8
   `--border`     `pad` or `clamp`              pad
   `--resize_h`   Resize height                 None
   `--resize_w`   Resize width                  None
@@ -144,15 +144,15 @@ microuav_2d --map assets/sample_map.png --fov 256 --step 16
 ## Controls
 
 ```
-  Key       Action
-  --------- ----------------
-  W         Move up
-  S         Move down
-  A         Move left
-  D         Move right
-  R         Reset position
-  SPACE     Pause
-  Q / ESC   Quit
+  Key      |Action
+  ---------|----------------
+  W        |Move up
+  S        |Move down
+  A        |Move left
+  D        |Move right
+  R        |Reset position
+  SPACE    |Pause
+  Q / ESC  |Quit
 ```
 
 ------------------------------------------------------------------------
