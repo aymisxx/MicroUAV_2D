@@ -5,7 +5,7 @@
 
 An **ultra-lightweight** 2D planar "down-camera" UAV sandbox for **rapid navigation logic prototyping**.
 
-MicroUAV_2D is a **minimal CPU-only simulator** designed for testing **XY motion policies** over static overhead imagery. It provides:
+MicroUAV-2D is a **minimal CPU-only simulator** designed for testing **XY motion policies** over static overhead imagery. It provides:
 
 -   A controllable point-drone.
 -   A fixed-size sensor footprint (FOV crop).
@@ -60,7 +60,7 @@ There is no mismatch between visualization and observation tensor.
 ## Folder Structure
 
 ```
-    MicroUAV_2D/
+    MicroUAV-2D/
     ├── simulator/
     │   ├── __init__.py
     │   ├── core.py
@@ -262,7 +262,7 @@ AgriDroneRL demonstrates how to:
 - evaluate navigation and coverage behavior over long rollouts.
 - structure autonomy logic cleanly without entangling the simulator kernel.
 
-**MicroUAV_2D** is the **generalized**, **domain-agnostic** version of that environment:  
+**MicroUAV-2D** is the **generalized**, **domain-agnostic** version of that environment:  
 
 no NDVI/VARI, no reward shaping, no domain assumptions, just a clean navigation sandbox.
 
@@ -270,7 +270,7 @@ no NDVI/VARI, no reward shaping, no domain assumptions, just a clean navigation 
 
 ## Design Philosophy
 
-MicroUAV_2D is not meant to be a full simulator.
+MicroUAV-2D is not meant to be a full simulator.
 
 It is:
 
