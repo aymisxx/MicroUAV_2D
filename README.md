@@ -1,4 +1,4 @@
-# **MicroUAV_2D Simulation Environment**
+# **MicroUAV-2D: Super-Lightweight Simulator**
 
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
