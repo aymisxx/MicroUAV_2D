@@ -126,9 +126,9 @@ microuav_2d --map assets/sample_map.png
   `--fov_w`     |Optional FOV width           |None
   `--fov_h`     |Optional FOV height          |None
   `--step`      |Movement step size (pixels)  |8
-  `--border`     `pad` or `clamp`              pad
-  `--resize_h`   Resize height                 None
-  `--resize_w`   Resize width                  None
+  `--border`    |`pad` or `clamp`             |pad
+  `--resize_h`  |Resize height                |None
+  `--resize_w`  |Resize width                 |None
 ```
 
 Resize requires both height and width.
