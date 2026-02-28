@@ -291,7 +291,7 @@ It is domain-agnostic.
 
 ------------------------------------------------------------------------
 
-## Future Roadmap
+## Future (Tentative) Roadmap
 
 Potential future versions:
 
